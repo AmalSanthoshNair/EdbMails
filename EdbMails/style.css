@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(51, 63, 103);
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{ 
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.bg{
+    min-width: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+
+    text-align: center;
+}
+.text-box h1{
+    color: rgb(82, 82, 244);
+    font-size: 40px;
+}
+.play a img{
+    width: 60px;
+    height: 60px;
+}
+.bg-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(237, 68, 68);
+    position: relative;
+    cursor: pointer;
+}
+.bg-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(91, 91, 249);
+    position: relative;
+    cursor: pointer;
+}
+.bg2{
+    width: 60%;
+    margin: auto; 
+    padding-top: 100px;
+}
+.row{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+.bg2-table-col{
+    /* flex-basis: 31%; */
+    
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.bg2-table-col a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+   
+}
+.bg2-table-col img{
+    width: 30px;
+    height: 30px;
+}
+.nav2{
+    display: flex;
+    padding: 1%; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2-links{ 
+    flex: 1;
+    text-align: center;
+}
+.nav2-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+}
+.nav2-links ul li a{
+    color: rgb(68, 92, 214);
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav2-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav2-links ul li:hover::after{
+    width: 100%;
+
+/* -------------simple------------- */
+
+}
+.simple{
+    text-align: center;
+    padding: 50px;
+} 
+.simple h1{
+    color: rgb(68, 92, 214);
+    font-size: 40px;
+}
+.simple p{
+    font-size: 15px;
+    line-height: 40px;
+}
+.row1{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.simple-col h5{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(68, 92, 214);
+}
+.simple-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row2{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.row2-col h5{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(68, 92, 214);
+}
+.row2-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+
+/* --------------Why to choose EdbMails for EDB to PST?------------- */
+
+.why{
+    background-color: aliceblue;
+}
+.row3{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.row3-col h2{
+    font-size: 32px;
+    text-align: left;
+    color: rgb(68, 92, 214);
+}
+.row3-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row3-col img{
+    width: 400px;
+    height: 400px;
+}
+.why-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: 1px solid blue;
+    position: relative;
+    cursor: pointer;
+}
+.row4{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.row4-col{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+
+}
+.row4 img{
+    width: 50px;
+    height: 50px;
+}
+.row4-col h2{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row4-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+
+/* -------------Simple and one-stop solution for EDB to PST----------- */
+
+.simple1{
+    text-align: center;
+    padding: 50px;
+}
+.simple1 h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px;
+}
+.simple1 p{
+    font-size: 15px;
+    line-height: 40px;
+}
+.row5{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.row5-col{
+    text-align: left;
+}
+.row5-col h2{
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+.row5-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.simple1-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: 1px solid blue;
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* --------Quick and beneficial features-------- */
+
+.quick{
+    text-align: center;
+    padding: 50px;
+    background-color: aliceblue;
+}
+.quick h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px;
+}
+.quick p{
+    font-size: 15px;
+    line-height: 40px;
+}
+.row6{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.row6-col{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.row6-col h2{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row6-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row7{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.row7-col{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    text-align: left;
+
+}
+.row7-col h2{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.row7-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.quick-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    
+}
+.row7-col a{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ---------Top-notch customer support--------- */
+
+.top{
+    text-align: center;
+    padding: 50px;
+}
+.top h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px;
+}
+.top p{
+    font-size: 15px;
+    line-height: 40px;
+}
+.row8{
+    margin-top: 1%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.row8-col{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    position: relative;
+
+}
+.row8 img{
+    width: 50px;
+    height: 50px;
+}
+.row8-col h2{
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+.row8-col p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+.row8-col a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ------------------Start using EdbMails------------------- */
+
+.start{
+    background-color: rgb(237, 232, 233);
+}
+.row9{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* .row9-col{
+   
+} */
+.row9-col h2{
+    font-size: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+.row9-col p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+.start-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(237, 68, 68);
+    position: relative;
+    cursor: pointer;
+}
+.im img{
+    width: 50px;
+    height: 50px;
+}
+
+/* -------------EDB to PST converter frequently asked questions-------------- */
+
+.edb{
+    text-align: center;
+    padding: 50px;
+}
+.edb h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px;
+}
+.row10{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row10-col{
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row10-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row11{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.row11-col{
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row11-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    text-decoration: none;
+}
+.row12{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row12-col{
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row12-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    text-decoration: none;
+}
+.row13{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row13-col{
+    margin: 15px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row13-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row14{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row14-col{
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row14-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row15{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.row15-col{
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row15-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row16{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.row16-col{
+    margin: 50px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row16-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row17{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.row17-col{
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+     
+}
+.row17-col a{
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    text-decoration: none;
+}
+.more-btn{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: blue;
+    position: relative;
+    cursor: pointer;
+}
+
+/* -------------------slider--------------------- */
+
+
+.container{
+    width: 100%;
+    margin: 10px auto;
+}
+.carousal{
+   
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    height: 100%;
+    display: flex;
+    width: 400%;
+    
+    transition: all 0.3s;
+}
+.slider section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.controls .arrow{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+.arrow.left{
+    left: 10px;
+    font-size: 50px;
+}
+.arrow.right{
+    right: 10px;
+    font-size: 50px;
+}
+.row18{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+
+/* -------------Trusted by Clients Worldwide-------------- */
+
+.row19{
+    text-align: center;
+    padding: 50px;
+}
+.row19 h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px;
+}
+
+
+/* ----------EDB to PST conversion, recovery and export---------- */
+
+.row20{
+    text-align: center;
+    padding: 50px;
+}
+.row20 h1{
+    color: rgb(68, 92, 214);
+    font-size: 35px; 
+}
+.row20 p{
+    font-size: 15px;
+    line-height: 40px;
+}
+.row20-col{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.row20-col a{
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+.row20-btn{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(68, 92, 214);
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    position: relative;
+    cursor: pointer;
+}
+
+/* <!-----------------footer------------------> */
+
+footer{
+    background-color: rgb(6, 24, 65);
+}
+.row21{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.row21-col{ 
+    margin: 50px;
+    flex: 1;
+    text-align: center;
+}
+.row21-col h1{
+    color: white;
+    font-size: 15px;
+}
+.row21-col ul li{
+    list-style: none;
+    /* display: inline-block; */
+    /* padding: 8px 12px; */
+    position: relative;
+}
+.row21-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.row21-col ul li img{
+    width: 20px;
+    height: 20px;
+}
+.ft{
+    text-align: center;
+}
+.ft hr{
+    color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.ft p{
+    margin: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
